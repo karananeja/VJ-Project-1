@@ -1,0 +1,49 @@
+* {
+    font-family: "New Tegomin";
+}
+
+.container {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    margin: auto 500px;
+    border-radius: 50px;
+    color: white;
+}
+
+.nav-center {
+    overflow: hidden;
+    position: relative; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+.nav-links h2 {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    float: right;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+}
+
+.nav-links a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+li {
+    list-style-type: none;
+}
+
+h2 {
+    padding-left: 20px;
+    padding-right: 0px;
+}
